@@ -1,15 +1,40 @@
-import { Component, OnInit } from '@angular/core';
+import { AfterViewInit, Component, OnInit } from '@angular/core';
+import { User } from 'src/app/class/user';
+// import { DataService } from 'src/app/data-service/data.service';
+
+// import { browserRefresh } from '../../app.component'
+
 
 @Component({
   selector: 'app-results',
   templateUrl: './results.component.html',
   styleUrls: ['./results.component.css']
 })
-export class ResultsComponent implements OnInit {
+export class ResultsComponent implements OnInit, AfterViewInit {  
 
-  constructor() { }
+  //   user: User;
+  //   repos = [];
+  //   dataService: DataService;
+  //   isDoneLoading: boolean;
+  //   browserRefresh: boolean;
+  //   router: Router;
 
-  ngOnInit(): void {
+  // constructor(dataService: DataService, router: Router) { 
+  //     this.dataService = dataService;
+  //     this.router = router;
+  // }
+  
+
+  ngAfterViewInit(){
+      //this.isDoneLoading = true;
   }
 
-}
+  ngOnInit(): void {
+      // this.isDoneLoading = false;
+      // this.browserRefresh = browserRefresh;
+      // this.user = this.dataService.user;
+      // this.repos = this.dataService.repos;
+      // if(browserRefresh){
+      //     this.router.navigate(['../search']);
+      }
+  }
