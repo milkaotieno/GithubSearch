@@ -15,8 +15,12 @@ By Otieno Milka
 * GithubApi
 
 ### Installation Process
-To install download it from the link provided, then run it locally from your computer.
-* git clone 
+To install:-
+* run the commands provided in your terminal, 
+* git clone ///////// to download it
+* cd GithubSearch
+* npm install
+* ng serve to run the app locally from your machine
 
 ## Known Bugs
 All bugs encountered were resolved
