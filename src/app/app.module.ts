@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { NotFoundComponent } from './components/not-found/not-found.component';
 import { ResultsComponent } from './components/results/results.component';
 import { SearchComponent } from './components/search/search.component';
+import { DateCountPipe } from './date-count.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     NotFoundComponent,
     ResultsComponent,
-    SearchComponent
+    SearchComponent,
+    DateCountPipe
   ],
   imports: [
     BrowserModule,
