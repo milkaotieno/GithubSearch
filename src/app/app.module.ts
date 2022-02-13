@@ -7,6 +7,7 @@ import { NotFoundComponent } from './components/not-found/not-found.component';
 import { ResultsComponent } from './components/results/results.component';
 import { SearchComponent } from './components/search/search.component';
 import { DateCountPipe } from './date-count.pipe';
+import { HoverDirectiveDirective } from './hover-directive.directive';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { DateCountPipe } from './date-count.pipe';
     NotFoundComponent,
     ResultsComponent,
     SearchComponent,
-    DateCountPipe
+    DateCountPipe,
+    HoverDirectiveDirective
   ],
   imports: [
     BrowserModule,
