@@ -14,9 +14,17 @@ By Otieno Milka
 * Typescript
 * GithubApi
 
-## Link
+### Installation Process
+To install download it from the link provided, then run it locally from your computer.
+* git clone 
 
-<!-- https://milkaotieno.github.io/bestquotes/ -->
+## Known Bugs
+All bugs encountered were resolved
+
+### Project live link
+****
+Click on the link provided bellow to view the site.
+*
 
 ## Support and contact details
 * Incase of any question,concern or idea please DO NOT hesitate to contact me at milkaotieno.student@moringaschool.com
