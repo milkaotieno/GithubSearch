@@ -26,8 +26,10 @@
             <div class="det-div">
                 <small><i class="fa fa-users" aria-hidden="true"></i>{{ user.following }} following</small>
             <small><i class="fa fa-user-friends" aria-hidden="true"></i>{{ user.followers }} followers</small>
+            </div >
+            <div class="tarik">
+                <small><i class="fas fa-calendar"></i>Joined {{ user.created_at | date }}</small>
             </div>
-                <small><i class="fas fa-calendar"></i>{{ user.created_at | date }}</small>
         </div>
         <div class="col-lg-4 mt-3 public-repos">
                 <h2 class="mb-0">Public Repositories</h2>
