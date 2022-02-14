@@ -10,12 +10,13 @@
 *{
     font-family: 'Roboto', sans-serif;
     transition: all 200ms ease-in-out !important;
+    /* color: orangered; */
 }
 html, body { height: 100%; }
 body { 
     margin: 0; 
     font-family: 'Roboto', "Helvetica Neue", sans-serif;
-    background-color: #145079;
+    background-color:rgb(210, 238, 229);
     color: lightgrey;
  }
  button{
@@ -26,12 +27,18 @@ body {
      color: white !important;
      background-color: var(--accent) !important;
  }
+ body > app-root > app-search > div > div > div.title > div.github{
+   /* background-color: orangered;
+   height: 1.5em; */
+   color: orangered;
+ }
 
  .github{
      font-size: 5rem;
      font-family: 'Exo', sans-serif;
      font-weight: 900;
-     color: lightgray !important;
+     /* color: lightgray !important; */
+     color: orangered;
      
  }
  .search{
