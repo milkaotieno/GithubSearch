@@ -19,6 +19,48 @@ body {
     background-color:rgb(210, 238, 229);
     color: lightgrey;
  }
+ .spacer {
+  flex: 1;
+}
+
+.toolbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: #2a1683;
+  /* color: white; */
+  font-weight: 700;
+  font-size: 2rem;
+  font-family: 'Exo', sans-serif;
+  /* margin-left: 2em; */
+  align-content: center;
+     
+}
+
+.toolbar span {
+  margin-left: 5em;
+}
+
+
+
+.toolbar #twitter-logo {
+  height: 40px;
+  margin: 0 8px;
+}
+
+.toolbar #youtube-logo {
+  height: 40px;
+  margin: 0 16px;
+}
+
+.toolbar #twitter-logo:hover,
+.toolbar #youtube-logo:hover {
+  opacity: 0.8;
+}
  button{
      border-color: var(--accent) !important;
      color: var(--accent) !important;
@@ -30,7 +72,7 @@ body {
  body > app-root > app-search > div > div > div.title > div.github{
    /* background-color: orangered;
    height: 1.5em; */
-   color: orangered;
+   color: orangered !important;
  }
 
  .github{
