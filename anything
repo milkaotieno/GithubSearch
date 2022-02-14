@@ -1,4 +1,40 @@
-Copyright 2022 Otieno Milka
+# GithubSearch
+
+# Description
+* GithubSearch is a website where users may enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories.
+
+## Author
+By Otieno Milka
+
+## Technologies Used
+* Angular
+* HTML
+* CSS
+* Bootstrap
+* Typescript
+* GithubApi
+
+### Installation Process
+To install:-
+* run the commands provided in your terminal, 
+* git clone ///////// to download it
+* cd GithubSearch
+* npm install
+* ng serve to run the app locally from your machine
+
+## Known Bugs
+All bugs encountered were resolved
+
+### Project live link
+****
+Click on the link provided bellow to view the site.
+*
+
+## Support and contact details
+* Incase of any question,concern or idea please DO NOT hesitate to contact me at milkaotieno.student@moringaschool.com
+
+## License and Copyright information
+
 ## Licence
 Licenced under the [MIT Licence ](LICENCE)
 
@@ -19,3 +55,5 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+Copyright (c) [2022] [Otieno Milka]
