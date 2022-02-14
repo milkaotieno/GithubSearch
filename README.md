@@ -17,7 +17,7 @@ By Otieno Milka
 
 ### Installation Process
 To install:-
-* run the commands provided in your terminal, 
+* run the commands run steps below in the terminal, 
 * git clone ///////// to download it
 * cd GithubSearch
 * npm install
