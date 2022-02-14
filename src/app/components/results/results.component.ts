@@ -1,8 +1,10 @@
 import { AfterViewInit, Component, OnInit } from '@angular/core';
-import { User } from 'src/app/class/user';
-// import { DataService } from 'src/app/data-service/data.service';
+import { Router } from '@angular/router';
+import { User } from 'src/app/classes/user';
+import { DataService } from 'src/app/data-service/data.service';
 
-// import { browserRefresh } from '../../app.component'
+import { browserRefresh } from '../../app.component'
+
 
 
 @Component({
@@ -10,31 +12,32 @@ import { User } from 'src/app/class/user';
   templateUrl: './results.component.html',
   styleUrls: ['./results.component.css']
 })
-export class ResultsComponent implements OnInit, AfterViewInit {  
+export class ResultsComponent implements OnInit, AfterViewInit {
 
-  //   user: User;
-  //   repos = [];
-  //   dataService: DataService;
-  //   isDoneLoading: boolean;
-  //   browserRefresh: boolean;
-  //   router: Router;
+    user: User;
+    repos = [];
+    dataService: DataService;
+    isDoneLoading: boolean;
+    browserRefresh: boolean;
+    router: Router;
 
-  // constructor(dataService: DataService, router: Router) { 
-  //     this.dataService = dataService;
-  //     this.router = router;
-  // }
+  constructor(dataService: DataService, router: Router) { 
+      this.dataService = dataService;
+      this.router = router;
+  }
   
 
   ngAfterViewInit(){
-      //this.isDoneLoading = true;
+      this.isDoneLoading = true;
   }
 
   ngOnInit(): void {
-      // this.isDoneLoading = false;
-      // this.browserRefresh = browserRefresh;
-      // this.user = this.dataService.user;
-      // this.repos = this.dataService.repos;
-      // if(browserRefresh){
-      //     this.router.navigate(['../search']);
+      this.isDoneLoading = false;
+      this.browserRefresh = browserRefresh;
+      this.user = this.dataService.user;
+      this.repos = this.dataService.repos;
+      if(browserRefresh){
+          this.router.navigate(['../search']);
       }
   }
+};
