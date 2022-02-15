@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-"@angular-devkit/architect@>= 0.900 < 0.1300", "@angular-devkit/architect@0.1102.13":
+"@angular-devkit/architect@>= 0.900 < 0.1400", "@angular-devkit/architect@0.1102.13":
   "integrity" "sha512-v44YF54DQnxwggZKUVCB2WtgfqMW8VG5AtE+nO0RgEtgnOC3e4bB7dZ/n+2Am0LCauYx45ufQDlIespeX09XgA=="
   "resolved" "https://registry.npmjs.org/@angular-devkit/architect/-/architect-0.1102.13.tgz"
   "version" "0.1102.13"
@@ -109,7 +109,7 @@
     "@angular-devkit/core" "11.2.13"
     "rxjs" "6.6.3"
 
-"@angular-devkit/core@^9.0.0 || ^10.0.0 || ^11.0.0 || ^12.0.0", "@angular-devkit/core@11.2.13":
+"@angular-devkit/core@^9.0.0 || ^10.0.0 || ^11.0.0 || ^12.0.0 || ^13.0.0", "@angular-devkit/core@11.2.13":
   "integrity" "sha512-GL97DZXeQCecqZmaIeMfG/XtHv6e7FM+uygMePNF9yn4cml32bSp4P5oRjDMgj7iFl6GIU81n8TstTMmFbt85w=="
   "resolved" "https://registry.npmjs.org/@angular-devkit/core/-/core-11.2.13.tgz"
   "version" "11.2.13"
@@ -120,7 +120,7 @@
     "rxjs" "6.6.3"
     "source-map" "0.7.3"
 
-"@angular-devkit/schematics@^9.0.0 || ^10.0.0 || ^11.0.0 || ^12.0.0", "@angular-devkit/schematics@11.2.13":
+"@angular-devkit/schematics@^9.0.0 || ^10.0.0 || ^11.0.0 || ^12.0.0 || ^13.0.0", "@angular-devkit/schematics@11.2.13":
   "integrity" "sha512-HMQWs9tsvmsS/QoL+ayxCYqjpP2Qc1x30EJrDU8zPDsaRCe06Uj7VYedBKlHpDGxh0D2F2oRSG1YkXGHr3H/TQ=="
   "resolved" "https://registry.npmjs.org/@angular-devkit/schematics/-/schematics-11.2.13.tgz"
   "version" "11.2.13"
@@ -1708,10 +1708,10 @@
   "resolved" "https://registry.npmjs.org/alphanum-sort/-/alphanum-sort-1.0.2.tgz"
   "version" "1.0.2"
 
-"angular-cli-ghpages@^1.0.0-rc.2":
-  "integrity" "sha512-oAAnu6hcNYZ5Scp1WrPUnwOHkz6JoPfwPd3b4BYifBHWlwRnB2/zXzqZRYn0vwi2aO9LqMVDbq/7dJlpAWz2LQ=="
-  "resolved" "https://registry.npmjs.org/angular-cli-ghpages/-/angular-cli-ghpages-1.0.0-rc.2.tgz"
-  "version" "1.0.0-rc.2"
+"angular-cli-ghpages@^1.0.0":
+  "integrity" "sha512-TUmAPOP/a8dzOC0D5juBnxeWQzx7DXz1WNvoOijDpbPGYFcQJKSsnsjk+Wx5aydbXvzS4YuE7Nh2VvfEKlLa+Q=="
+  "resolved" "https://registry.npmjs.org/angular-cli-ghpages/-/angular-cli-ghpages-1.0.0.tgz"
+  "version" "1.0.0"
   dependencies:
     "commander" "^3.0.0-0"
     "fs-extra" "^9.0.1"
