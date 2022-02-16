@@ -6,6 +6,10 @@
 ## Author
 By Otieno Milka
 
+![Project Image](/src/assets/home.png)
+![Project Image](/src/assets/home2.png)
+
+
 ## Technologies Used
 * Angular
 * HTML
@@ -17,18 +21,25 @@ By Otieno Milka
 ### Installation Process
 To install:-
 * run the commands run steps below in the terminal, 
-* git clone ///////// to download it
+* git clone https://github.com/milkaotieno/GithubSearch.git to download it
 * cd GithubSearch
 * npm install
 * ng serve to run the app locally from your machine
 
-## Known Bugs
-All bugs encountered were resolved
+### How the Project works
+* Launch the application then,  land on search page.
+* Enter the user name to search
+* If found , the details will be displayed
+* Else the app returns error 404 and prompts you to enter try with different name.
+
+
 
 ### Project live link
 ****
 Click on the link provided bellow to view the site.
 *
+## Known Bugs
+All bugs encountered were resolved
 
 ## Support and contact details
 * Incase of any question,concern or idea please DO NOT hesitate to contact me at milkaotieno.student@moringaschool.com
