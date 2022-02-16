@@ -37,7 +37,8 @@ To install:-
 ### Project live link
 ****
 Click on the link provided bellow to view the site.
-*
+* https://sleepy-ardinghelli-d01e3a.netlify.app/search
+
 ## Known Bugs
 All bugs encountered were resolved
 
