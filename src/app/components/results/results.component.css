@@ -41,13 +41,16 @@
 i{
     margin-right: 0.3rem;
     color: var(--accent);
+    
 }
 .det-div{
     display: flex;
+    color:orangered; 
 }
-.det-div small{
+.det-div small i{
     margin-right: 0.5rem;
-    color:orangered;
+     color:orangered; 
+     gap: 1em;
 }
 .username{
     font-style: italic;
@@ -115,7 +118,7 @@ h2,h3{
     position: absolute !important;
     top: 0;
     left: 0;
-    background-color: orangered;
+    background-color: transparent;
     /* background-color: #1f1f1f; */
     height: 100%;
     width: 100%;
